@@ -1,27 +1,28 @@
 /* Colors */
 :root {
 	--color-primary: #131111;
-  --color-primary_light: #717070;
-  --color-primary_dark: #0F0D0D;
-  --color-primary_press: #424141;
-  --color-primary_focus: #0D0C0C;
-  --color-primary_disable: #B8B8B8;
+  --color-primary-light: #717070;
+  --color-primary-dark: #0F0D0D;
+  --color-primary-hover: #0F0E0E;
+  --color-primary-press: #424141;
+  --color-primary-focus: #0D0C0C;
+  --color-primary-disable: #B8B8B8;
 
   --color-secondary: #D7362C;
-  --color-secondary_light: #E78680;
-  --color-secondary_dark: #982720;
-  --color-secondary_hover: #AC2B23;
-  --color-secondary_press: #DF5E56;
-  --color-secondary_focus: #97261F;
-  --color-secondary_disable: #F3C3C0;
+  --color-secondary-light: #E78680;
+  --color-secondary-dark: #982720;
+  --color-secondary-hover: #AC2B23;
+  --color-secondary-press: #DF5E56;
+  --color-secondary-focus: #97261F;
+  --color-secondary-disable: #F3C3C0;
 
   --color-surface: #212121;
-  --color-surface_light: #7A7A7A;
-  --color-surface_dark: #181818;
-  --color-surface_hover: #1A1A1A;
-  --color-surface_press: #4D4D4D;
-  --color-surface_focus: #171717;
-  --color-surface_disable: #BCBCBC;
+  --color-surface-light: #7A7A7A;
+  --color-surface-dark: #181818;
+  --color-surface-hover: #1A1A1A;
+  --color-surface-press: #4D4D4D;
+  --color-surface-focus: #171717;
+  --color-surface-disable: #BCBCBC;
 
 
   --box-shadow-1: 0px 5px 20px rgba(255, 255, 255, 0.3);
@@ -43,8 +44,6 @@
     --bckg-secondary_light__text-color: #000000;
     --bckg-secondary_dark__text-color: #FFFFFF;
 
-    
-
     --text-h1: 96px;
     --text-h2: 66px;
     --text-h3: 54px;
@@ -53,75 +52,77 @@
     --text-h6: 28px;
     --text-body1: 28px;
     --text-body2: 22px;
-    --text-button: 12px;
+    --text-button: 13px;
     --text-caption: 14px;
     --text-subtitle1: 16px;
     --text-subtitle2: 14px;
     --text-overline: 14px;
+
+    --text-button-font: Arial;
+    --text-button-transform: uppercase;
+    --text-button-spacing: 0.0125em;
     
 }
-
-	h1 {
-		color: var(--color-primary);   
-}
-
-/* typography */
-
-.text-h4_bold {
- font-family: Arial;
- font-size: var(--text-h4);
- font-weight: bold;
- letter-spacing: 0.0025em;
-}
-.text-h5_bold {
- font-family: Arial;
- font-size:var(--text-h5);
- font-weight: bold;
- letter-spacing: 0.0015em;
-
-}
-
 /* buttons */
-.btn-primary{
- border: 0px;
- width: 90px;
- height: 27px;
- background-color: var(--color-primary);
- color: var(--bckg-primary__text-color);
- font-family: Arial;
- text-align: center;
- font-size: var(--text-button);
- letter-spacing: 0.0125em;
- text-transform: uppercase;
- box-shadow: var(--box-shadow-1);
-}
-.btn-primary_hover{
 
-}
-.btn-primary_click{
 
-}
-.btn-primary_focus{
-
-}
-.btn-secondary{
-
-}
-.btn-secondary_hover{
-
-}
-.btn-secondary_click{
-
-}
-.btn-secondary_focus{
-
-}
-.btn_default{
-
-}
-.btn_disabled{
-
+.button {
+  border: 0px;
+  border-radius: 3px;
+  width: 90px;
+  height: 27px;
+  box-shadow: var(--box-shadow-1);
 }
 
+.button__text {
+  margin: auto;
+  letter-spacing: var(--text-button-spacing);
+  text-transform: var(--text-button-transform);
+  text-align: center;
+  font-family: var(--text-button-font);
+  font-size: var(--text-button);
+}
+.button__text_secondary {
+  color: var(--bckg-secondary__text-color);
+}
+.button__text_primary {
+  color: var(--bckg-primary__text-color);
+}
+.button__text_default {
+  color: var(--bckg-secondary_light__text-color);
+}
+
+
+.button_primary {
+  background-color: var(--color-primary);   
+}
+.button_primary_hover {
+  background-color: var(--color-primary-hover); 
+}
+.button_primary_click {
+  background-color: var(--color-primary-press); 
+}
+.button_primary_focus {
+  background-color: var(--color-primary-press); 
+}
+
+.button_secondary {
+  background-color: var(--color-secondary);   
+}
+.button_secondary_hover {
+  background-color: var(--color-secondary-hover); 
+}
+.button_secondary_click {
+  background-color: var(--color-secondary-press); 
+}
+.button_secondary_focus {
+  background-color: var(--color-secondary-press); 
+}
+.button_default {
+  background-color: var(--color-primary-light); 
+}
+.button_disabled {
+  background-color: var(--color-primary-disable); 
+}
 
 
