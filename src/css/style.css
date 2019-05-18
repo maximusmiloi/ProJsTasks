@@ -1,0 +1,103 @@
+@import "header.css";
+@import "main.css";
+@import "button.css";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body {
+  font-family: Arial;
+}
+footer, header, section {
+  margin: 0;
+  display: block;
+}
+.container {
+  margin: 0 auto;
+  width: 1024px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/* Colors */
+:root {
+	--color-primary: #131111;
+  --color-primary-light: #717070;
+  --color-primary-dark: #0F0D0D;
+  --color-primary-hover: #0F0E0E;
+  --color-primary-press: #424141;
+  --color-primary-focus: #0D0C0C;
+  --color-primary-disable: #B8B8B8;
+
+  --color-secondary: #D7362C;
+  --color-secondary-light: #E78680;
+  --color-secondary-dark: #982720;
+  --color-secondary-hover: #AC2B23;
+  --color-secondary-press: #DF5E56;
+  --color-secondary-focus: #97261F;
+  --color-secondary-disable: #F3C3C0;
+
+  --color-surface: #212121;
+  --color-surface-light: #7A7A7A;
+  --color-surface-dark: #181818;
+  --color-surface-hover: #1A1A1A;
+  --color-surface-press: #4D4D4D;
+  --color-surface-focus: #171717;
+  --color-surface-disable: #BCBCBC;
+
+
+  --box-shadow-1: 0px 5px 20px rgba(255, 255, 255, 0.3);
+  --box-shadow-2: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  --box-shadow-3: 0px 11px 20px rgba(0, 0, 0, 0.3);
+  --box-shadow-4: 0px 14px 20px rgba(0, 0, 0, 0.3);
+  --box-shadow-5: 0px 17px 20px rgba(0, 0, 0, 0.3);
+  --box-shadow-6: 0px 21px 20px rgba(0, 0, 0, 0.3);
+  --box-shadow-7: 0px 24px 20px rgba(0, 0, 0, 0.3);
+  --box-shadow-8: 0px 27px 20px rgba(0, 0, 0, 0.3); 
+  --box-shadow-9: 0px 30px 20px rgba(0, 0, 0, 0.3);
+  --box-shadow-10: 0px 33px 20px rgba(0, 0, 0, 0.3);
+
+
+    --text-on-primary: #FFFFFF;
+    --light-text-primary-color: #FFFFFF;
+    --black-text-primary-color: #FFFFFF;
+    --text-on-secondary: #FFFFFF;
+    --light-text-secondary-color: #000000;
+    --black-text-secondary-color: #FFFFFF;
+
+    --text-h1: 96px;
+    --text-h2: 66px;
+    --text-h3: 54px;
+    --text-h4: 42px;
+    --text-h5: 32px;
+    --text-h6: 28px;
+    --text-body1: 28px;
+    --text-body2: 22px;
+    --text-button: 13px;
+    --text-caption: 14px;
+    --text-subtitle1: 16px;
+    --text-subtitle2: 14px;
+    --text-overline: 14px;
+
+    --text-button-font: Arial;
+    --text-button-transform: uppercase;
+    --text-button-spacing: 0.0125em;
+    
+}
+
