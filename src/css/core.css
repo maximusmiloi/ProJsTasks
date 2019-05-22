@@ -1,0 +1,250 @@
+.circle {
+    display: inline-block;
+    margin: 0 14px;
+    height: 160px;
+    width: 160px;
+}
+.circle_primary {
+  background: var(--color-primary);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_secondary{
+  background: var(--color-secondary);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_surface{
+  background: var(--color-surface);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_primary-light {
+  background: var(--color-primary-light);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_secondary-light{
+  background: var(--color-secondary-light);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_surface-light{
+  background: var(--color-surface-light);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_primary-dark {
+  background: var(--color-primary-dark);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_secondary-dark{
+  background: var(--color-secondary-dark);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_surface-dark{
+  background: var(--color-surface-dark);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_primary-hover {
+  background: var(--color-primary-hover);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_secondary-hover {
+  background: var(--color-secondary-hover);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_surface-hover {
+  background: var(--color-surface-hover);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_primary-press {
+  background: var(--color-primary-press);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_secondary-press {
+  background: var(--color-secondary-press);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_surface-press {
+  background: var(--color-surface-press);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_primary-focus {
+  background: var(--color-primary-focus);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_secondary-focus {
+  background: var(--color-secondary-focus);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_surface-focus {
+  background: var(--color-surface-focus);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_primary-disable {
+  background: var(--color-primary-disable);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_secondary-disable {
+  background: var(--color-secondary-disable);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle_surface-disable {
+  background: var(--color-surface-disable);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.circle-text {
+  margin-top: 24px;
+}
+.head-core {
+  text-align: center;
+  margin: 48px;
+  font-size: var(--text-h1);
+}
+.schema {
+  width:100%;
+  height: 363px;
+}
+.schema_primary {
+  background: var(--color-primary);
+}
+.schema_primary-light {
+  background: var(--color-primary-light);
+}
+.schema_primary-dark {
+  background: var(--color-primary-dark);
+}
+.schema_secondary {
+  background: var(--color-secondary);
+}
+.schema_secondary-light {
+  background: var(--color-secondary-light);
+}
+.schema_secondary-dark {
+  background: var(--color-secondary-dark);
+}
+.schema__text {
+  padding-top: 48px;
+  margin-left: 31px;
+  font-size: 48px;
+}
+.schema__text-primary {
+  color: var(--text-on-primary);
+}
+.schema__text-light-primary {
+  color: var(--light-text-primary-color);
+}
+.schema__text-black-primary {
+  color: var(--black-text-primary-color);
+}
+.schema__text-secondary {
+  color: var(--text-on-secondary);
+}
+.schema__text-light-secondary {
+  color: var(--light-text-secondary-color);
+}
+.schema__text-black-secondary {
+  color: var(--black-text-secondary-color);
+}
+.h1 {
+  font-family: Arial;
+  font-size: var(--text-h1);
+  padding: 12px 0px;
+}
+.h2 {
+  font-family: Arial;
+  font-size: var(--text-h2);
+  padding: 12px 0px;
+}
+.h3 {
+  font-family: Arial;
+  font-size: var(--text-h3);
+  padding: 12px 0px;
+}
+.h4 {
+  font-family: Arial;
+  font-size: var(--text-h4);
+  padding: 12px 0px;
+}
+.h5 {
+  font-family: Arial;
+  font-size: var(--text-h5);
+  padding: 12px 0px;
+}
+.h6 {
+  font-family: Arial;
+  font-size: var(--text-h6);
+  padding: 12px 0px;
+}
+.text-body-1 {
+  font-family: Arial;
+  font-size: var(--text-body1);
+  padding: 12px 0px;
+}
+.text-body-2 {
+  font-family: Arial;
+  font-size: var(--text-body2);
+  padding: 12px 0px;
+}
+.text-button {
+  font-family: Arial;
+  font-size: var(--text-button);
+  padding: 12px 0px;
+}
+.text-caption {
+  font-family: Arial;
+  font-size: var(--text-caption);
+  padding: 12px 0px;
+}
+.text-overline {
+  font-family: Arial;
+  font-size: var(--text-overline);
+  padding: 12px 0px;
+}
+.text-subtitle-1 {
+  font-family: Arial;
+  font-size: var(--text-subtitle1);
+  padding: 12px 0px;
+}
+.text-subtitle-2 {
+  font-family: Arial;
+  font-size: var(--text-subtitle2);
+  padding: 12px 0px;
+}

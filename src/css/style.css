@@ -1,6 +1,7 @@
 @import "header.css";
 @import "main.css";
 @import "button.css";
+@import "core.css";
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -31,9 +32,10 @@ footer, header, section {
 }
 .container {
   margin: 0 auto;
-  width: 1024px;
+  width: 1170px;
   padding-left: 30px;
   padding-right: 30px;
+  
 }
 /* Colors */
 :root {
