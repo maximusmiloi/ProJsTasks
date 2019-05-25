@@ -94,13 +94,21 @@
 }
 /* buttons */
 .button {
-  margin-top: 24px;
   border: 0px;
   border-radius: 3px;
   width: 200px;
   height: 53px;
   box-shadow: 0px 5px 20px rgba(255, 255, 255, 0.3);
   box-shadow: var(--box-shadow-1);
+}
+.button_out {
+  border: 0px;
+  border-radius: 3px;
+  width: 200px;
+  height: 53px;
+  box-shadow: 0px 5px 20px rgba(255, 255, 255, 0.3);
+  box-shadow: var(--box-shadow-1);
+
 }
 .button__text {
   margin: auto;
@@ -139,8 +147,8 @@
   background-color: var(--color-primary-press); 
 }
 .button_primary_focus {
-  background-color: #424141;
-  background-color: var(--color-primary-press); 
+  background-color: #0D0C0C;
+  background-color: var(--color-primary-focus); 
 }
 .button_secondary {
   background-color: #D7362C;
@@ -155,8 +163,8 @@
   background-color: var(--color-secondary-press); 
 }
 .button_secondary_focus {
-  background-color: #DF5E56;
-  background-color: var(--color-secondary-press); 
+  background-color: #97261F;
+  background-color: var(--color-secondary-focus); 
 }
 .button_default {
   background-color: #717070;
@@ -165,6 +173,13 @@
 .button_disabled {
   background-color: #B8B8B8;
   background-color: var(--color-primary-disable); 
+}
+.button_transparent {
+  background-color: transparent;
+}
+.button_transparent-primary {
+  background-color: rgba(215, 54, 44, 0.2);
+
 }
 .circle {
     display: inline-block;
@@ -462,6 +477,24 @@
   font-size: 14px;
   font-size: var(--text-subtitle2);
   padding: 12px 0px;
+}
+.button_inline {
+    display: inline-block;
+    height: 55px;
+    width: 200px;
+    margin: 0px 2px;
+}
+.center {
+    display: block;
+    margin: 0 auto;
+    width: 860px;
+
+}
+.button_block {
+  display: block; 
+  padding-bottom: 0px;
+  height: 55px;
+  width: 200px;
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,

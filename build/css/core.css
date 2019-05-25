@@ -248,3 +248,21 @@
   font-size: var(--text-subtitle2);
   padding: 12px 0px;
 }
+.button_inline {
+    display: inline-block;
+    height: 55px;
+    width: 200px;
+    margin: 0px 2px;
+}
+.center {
+    display: block;
+    margin: 0 auto;
+    width: 860px;
+
+}
+.button_block {
+  display: block; 
+  padding-bottom: 0px;
+  height: 55px;
+  width: 200px;
+}

@@ -2,13 +2,21 @@
 
 
 .button {
-  margin-top: 24px;
   border: 0px;
   border-radius: 3px;
   width: 200px;
   height: 53px;
   box-shadow: var(--box-shadow-1);
 }
+.button_out {
+  border: 0px;
+  border-radius: 3px;
+  width: 200px;
+  height: 53px;
+  box-shadow: var(--box-shadow-1);
+
+}
+
 
 .button__text {
   margin: auto;
@@ -39,7 +47,7 @@
   background-color: var(--color-primary-press); 
 }
 .button_primary_focus {
-  background-color: var(--color-primary-press); 
+  background-color: var(--color-primary-focus); 
 }
 
 .button_secondary {
@@ -52,11 +60,19 @@
   background-color: var(--color-secondary-press); 
 }
 .button_secondary_focus {
-  background-color: var(--color-secondary-press); 
+  background-color: var(--color-secondary-focus); 
 }
 .button_default {
   background-color: var(--color-primary-light); 
 }
 .button_disabled {
   background-color: var(--color-primary-disable); 
+}
+
+.button_transparent {
+  background-color: transparent;
+}
+.button_transparent-primary {
+  background-color: rgba(215, 54, 44, 0.2);
+
 }
